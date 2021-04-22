@@ -50,7 +50,7 @@ img {
 
 .block-background {
     background-color: var(--secondary-color);
-
+    
 }
 
 .buttons {
@@ -111,8 +111,8 @@ img {
 .block {
     display: flex;
     flex-direction: column;
-    padding: 200px 452px;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -157,6 +157,11 @@ img {
 }
 .header-nav-item:not(:last-child){
     margin-right: 46px;
+}
+
+.header-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .header-text {
